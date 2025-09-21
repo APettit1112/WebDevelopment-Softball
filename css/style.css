@@ -1,4 +1,3 @@
-/* General page styles */
 body {
   font-family: 'Times New Roman', serif;
   font-size: 12px;
@@ -9,9 +8,8 @@ body {
   text-align: left; /* everything aligned left */
 }
 
-/* Header styles */
 #main-header {
-  background-color: #005f99; /* dark blue */
+  background-color: #590099; /* dark blue */
   color: white;
   padding: 15px 20px;
   border-bottom: 3px solid #003d66;
@@ -22,7 +20,7 @@ body {
   font-size: 24px;
 }
 
-/* Content sections */
+
 .content-section {
   background-color: #e6f2ff; /* very light blue */
   margin-bottom: 20px;
@@ -31,22 +29,19 @@ body {
   border: 1px solid #99ccff;
 }
 
-/* Paragraph styling */
 .text-block {
   line-height: 1.5;
   margin-bottom: 10px;
 }
 
-/* Footer styles */
 #page-footer {
-  background-color: #003d66; /* darker blue */
+  background-color: #300066; /* darker blue */
   color: white;
   text-align: center;
   padding: 10px 20px;
   border-top: 3px solid #00264d;
 }
 
-/* Link styling as buttons */
 .button-link {
   background-color: #007acc;
   color: white;
@@ -60,4 +55,19 @@ body {
 
 .button-link:hover {
   background-color: #005f99;
+}
+#content-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+#intro, #details {
+  flex: 1; 
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  #content-wrapper {
+    flex-direction: column;
+  }
 }
