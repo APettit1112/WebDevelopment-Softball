@@ -71,3 +71,28 @@ body {
     flex-direction: column;
   }
 }
+@media (max-width: 600px) {
+  body {
+    font-size: 15px; 
+    padding: 10px;   
+  }
+
+  #content-wrapper {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .content-section {
+    padding: 12px; 
+    margin-bottom: 15px; 
+  }
+
+  .button-link {
+    width: 100%;
+    text-align: center;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+}
