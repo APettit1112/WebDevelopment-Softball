@@ -4,13 +4,11 @@ body {
   background-color: #f7ff9f; 
   margin: 0;
   padding: 0 20px;
-  text-align: left; /* everything aligned left */
 }
 
 #main-header {
-  background-color: #f6ff00; /* dark blue */
+  background-color: #f6ff00;
   color: rgb(255, 0, 0);
-  padding: 15px 20px;
   border-bottom: 3px solid #003d66;
 }
 
@@ -19,9 +17,8 @@ body {
   font-size: 24px;
 }
 
-
 .content-section {
-  background-color: #e6f2ff; /* very light blue */
+  background-color: #e6f2ff;
   margin-bottom: 20px;
   padding: 15px 20px;
   border-radius: 8px;
@@ -34,61 +31,21 @@ body {
 }
 
 #page-footer {
-  background-color: #f6ff00; /* darker blue */
+  background-color: #f6ff00;
   color: rgb(255, 0, 0);
   text-align: center;
-  padding: 10px 20px;
   border-top: 3px solid #00264d;
 }
 
-.button-link {
-  background-color: #007acc;
-  color: rgb(143, 41, 41);
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 10px 0;
-  transition: background-color 0.3s ease;
-}
-
-.button-link:hover {
-  background-color: #005f99;
-}
-#content-wrapper {
-  display: flex;
-  gap: 20px;
-}
-
-#intro, #details {
-  flex: 1; 
-  min-width: 200px;
-}
-
-@media (max-width: 600px) {
-  #content-wrapper {
-    flex-direction: column;
-  }
-}
 @media (max-width: 600px) {
   body {
     font-size: 15px; 
     padding: 10px;   
   }
 
-  #content-wrapper {
-    flex-direction: column;
-    gap: 12px;
-  }
-
   .content-section {
     padding: 12px; 
     margin-bottom: 15px; 
-  }
-
-  .button-link {
-    width: 100%;
-    text-align: center;
   }
 
   header, footer {
