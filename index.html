@@ -8,36 +8,40 @@
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-  <header id="main-header" class="header-section">
-    <h1 class="title">Welcome to Softball</h1>
-    <img src="images/GITHUB Softball.png" alt="Softball Image with text for project" width="300">
+
+<body class="bg-light">
+  <header id="main-header" class="header-section text-center p-4 mb-4">
+    <h1 class="title mb-3">Welcome to Softball</h1>
+    <img src="images/GITHUB Softball.png" 
+         alt="Softball Image with text for project" 
+         width="300"
+         class="img-fluid rounded shadow">
   </header>
 
-<main id="main-content">
-  <div id="content-wrapper">
-    <section id="intro" class="content-section">
-  <h2>Introduction to Softball</h2>
-  <p class="text-block">
-    Softball is played all over the world, but it’s not as highly recognized as some of the other sports such as baseball or football.
-        Softball has gained more popularity over the years as more women take part in softball.
-  </p>
-</section>
+  <main id="main-content" class="container">
+    <div id="content-wrapper" class="row g-4">
+      <section id="intro" class="col-md-6 content-section">
+        <h2 class="text-primary">Introduction to Softball</h2>
+        <p class="text-block">
+          Softball is played all over the world, but it’s not as highly recognized as some of the other sports such as baseball or football.
+          Softball has gained more popularity over the years as more women take part in softball.
+        </p>
+      </section>
 
-    <section id="details" class="content-section">
-  <h2>Key Components of the Game</h2>
-  <p class="text-block">
-    When playing the sport there are many key components to think about, such as what position someone plays, what's the batter’s count and what they can do, and how many can be on the field and the average size of a team.  </p>
-</section>    
-  </div>
-</main>
+      <section id="details" class="col-md-6 content-section">
+        <h2 class="text-primary">Key Components of the Game</h2>
+        <p class="text-block">
+          When playing the sport there are many key components to think about, such as what position someone plays, what's the batter’s count and what they can do, and how many can be on the field and the average size of a team.
+        </p>
+      </section>
+    </div>
+  </main>
 
-  <footer id="page-footer" class="footer-section">
+  <footer id="page-footer" class="footer-section text-center mt-4 p-3">
     <p>Page created for web development softball project.</p>
+    <a href="page2.html" class="btn btn-primary mt-2">Read more on Page 2</a>
   </footer>
-
-  <a href="page2.html" class="button-link">Read more on Page 2</a>
 </body>
 </html>
