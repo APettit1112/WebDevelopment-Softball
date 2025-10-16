@@ -1,16 +1,15 @@
 body {
   font-family: 'Times New Roman', serif;
   font-size: 12px;
-  background-color: #cce6ff; /* light blue */
+  background-color: #f7ff9f; 
   margin: 0;
-  padding: 0 20px; /* add some padding to the sides */
-  color: #333; /* dark gray text for readability */
+  padding: 0 20px;
   text-align: left; /* everything aligned left */
 }
 
 #main-header {
-  background-color: #590099; /* dark blue */
-  color: white;
+  background-color: #f6ff00; /* dark blue */
+  color: rgb(255, 0, 0);
   padding: 15px 20px;
   border-bottom: 3px solid #003d66;
 }
@@ -35,8 +34,8 @@ body {
 }
 
 #page-footer {
-  background-color: #300066; /* darker blue */
-  color: white;
+  background-color: #f6ff00; /* darker blue */
+  color: rgb(255, 0, 0);
   text-align: center;
   padding: 10px 20px;
   border-top: 3px solid #00264d;
@@ -44,7 +43,7 @@ body {
 
 .button-link {
   background-color: #007acc;
-  color: white;
+  color: rgb(143, 41, 41);
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 5px;
